@@ -23,7 +23,8 @@ public class Server {
         clients = new ArrayList<Client>();
 
         try {
-            ServerSocket servSock = new ServerSocket(3333);
+             const port=3345;
+            ServerSocket servSock = new ServerSocket(port);
 
             while(true) {
                 client = servSock.accept();
