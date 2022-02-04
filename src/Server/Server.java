@@ -23,7 +23,7 @@ public class Server {
         clients = new ArrayList<Client>();
 
         try {
-             const port=3345;
+             const port=8080;
             ServerSocket servSock = new ServerSocket(port);
 
             while(true) {
