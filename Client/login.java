@@ -25,3 +25,8 @@ stage = (Stage) server_ip.getScene().getWindow();
         Parent root = FXMLLoader.load(login.class.getResource("room.fxml"));
         stage.setScene(new Scene(root, 700, 400));
 stage.setTitle(data.name);
+stage.setOnCloseRequest(e-> {
+            //e.consume();
+            room.th.stop();
+            System.exit(0);
+        });
