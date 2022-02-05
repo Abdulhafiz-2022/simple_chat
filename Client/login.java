@@ -20,3 +20,7 @@ public void onClick() throws IOException{
         data.name = name.getText();
         data.port = Integer.parseInt(sPort);
 Stage stage;
+stage = (Stage) server_ip.getScene().getWindow();
+        //Parent parent = FXMLLoader.load(getClass().getResource("room.fxml"));
+        Parent root = FXMLLoader.load(login.class.getResource("room.fxml"));
+        stage.setScene(new Scene(root, 600, 400));
