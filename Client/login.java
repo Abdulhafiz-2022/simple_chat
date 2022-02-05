@@ -13,7 +13,7 @@ public class loginpage {
     @FXML public TextField name;
     @FXML public String sPort;
 public void onClick() throws IOException{
-System.out.println("TESTING");
+
         System.out.println("Clicked");
         data.ip = server_ip.getText();
         this.sPort = port.getText();
