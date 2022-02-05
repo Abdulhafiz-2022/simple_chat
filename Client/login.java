@@ -31,3 +31,9 @@ stage.setOnCloseRequest(e-> {
             System.exit(0);
         });
  stage.setResizable(false);
+
+        stage.show();
+    }
+
+
+}
