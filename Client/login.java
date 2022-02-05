@@ -12,3 +12,4 @@ public class loginpage {
     @FXML public TextField port;
     @FXML public TextField name;
     @FXML public String sPort;
+public void onPress() throws IOException{
