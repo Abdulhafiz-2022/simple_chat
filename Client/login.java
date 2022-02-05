@@ -12,4 +12,10 @@ public class loginpage {
     @FXML public TextField port;
     @FXML public TextField name;
     @FXML public String sPort;
-public void onClick() throws IOException{}
+public void onClick() throws IOException{
+System.out.println("TESTING");
+        System.out.println("Clicked");
+        data.ip = server_ip.getText();
+        this.sPort = port.getText();
+        data.name = name.getText();
+        data.port = Integer.parseInt(sPort);
