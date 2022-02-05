@@ -19,3 +19,4 @@ public void onClick() throws IOException{
         this.sPort = port.getText();
         data.name = name.getText();
         data.port = Integer.parseInt(sPort);
+Stage stage;
