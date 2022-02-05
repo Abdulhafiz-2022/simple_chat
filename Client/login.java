@@ -7,4 +7,8 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-public class loginpage
+public class loginpage {
+    @FXML public TextField server_ip;
+    @FXML public TextField port;
+    @FXML public TextField name;
+    @FXML public String sPort;
