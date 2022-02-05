@@ -30,3 +30,4 @@ stage.setOnCloseRequest(e-> {
             room.th.stop();
             System.exit(0);
         });
+ stage.setResizable(false);
