@@ -8,4 +8,5 @@
 <TextField fx:id="server_ip" layoutX="256.0" layoutY="97.0" />
       <TextField fx:id="port" layoutX="256.0" layoutY="149.0" />
       <TextField fx:id="name" layoutX="256.0" layoutY="211.0" />
+<Button layoutX="274.0" layoutY="292.0" mnemonicParsing="false" onAction="#onClick" style="-fx-background-color: blue;" text="Login" textFill="WHITE" />
 </children>
