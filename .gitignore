@@ -24,3 +24,6 @@ hs_err_pid*
 
 # A specific file called json_simple-1.1.jar is added, it is a package file
 /src/json_simple-1.1.jar 
+
+# A specific file called json_simple-1.1.jar is added, it is a package file
+/src/json_simple-1.1.jar 
