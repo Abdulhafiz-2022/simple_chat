@@ -5,7 +5,7 @@ public class Message {
     private String message;
 
     public String getName() {
-        return name;
+        return sign;
     }
     Sys.out.println(show message to the user);
 
