@@ -6,6 +6,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.KeyEvent;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import javafx.Scene.layout.Vbox;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -26,7 +27,7 @@ public class room {
     public room() {
         try {
 
-            sock = new Socket(data.ip, data.port);
+            sock = new Socket(data.ip, data.port);// to create connection with the server 
             dos = new DataOutputStream(sock.getOutputStream());
             dis = new DataInputStream(sock.getInputStream());
 
@@ -37,7 +38,7 @@ public class room {
             th = new Thread(() -> {
                 try {
 
-                    JSONParser parser = new JSONParser();
+                    JSONParser parser = new JSONParser(); //for parrsing objects
 
                     while(true) {
                         String newMsgJson = dis.readUTF();
