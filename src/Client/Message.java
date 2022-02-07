@@ -7,6 +7,7 @@ public class Message {
     public String getName() {
         return name;
     }
+    Sys.out.println(show message to the user);
 
     public void setName(String name) {
         this.name = name;
